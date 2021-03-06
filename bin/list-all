@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+curl --silent "https://api.github.com/repos/rakyll/hey/releases" \
+    | jq -r '.[].tag_name' \
+    | cut -c 2- \
+    | tac \
+    | tr '\n' ' '

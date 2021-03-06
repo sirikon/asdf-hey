@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+curl -L# "https://gobinaries.com/binary/github.com/rakyll/hey?os=linux&arch=amd64&version=v${ASDF_INSTALL_VERSION}" \
+    --output "${ASDF_DOWNLOAD_PATH}/hey"
+
+chmod +x "${ASDF_DOWNLOAD_PATH}/hey"

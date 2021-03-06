@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+mkdir -p "${ASDF_INSTALL_PATH}/bin"
+cp "${ASDF_DOWNLOAD_PATH}/hey" "${ASDF_INSTALL_PATH}/bin/hey"

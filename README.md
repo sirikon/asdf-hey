@@ -1,1 +1,1 @@
-# ASDF plugin for [Hey](https://github.com/rakyll/hey)
+# Moved to [Codeberg](https://codeberg.org/sirikon/asdf-hey)
